@@ -1,0 +1,31 @@
+.sliderss {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.sliderss > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.sliderss h1 {
+  margin: 0;
+}
+
+.sliderss h2 {
+  margin: 0;
+}
+
+.sliderss p {
+  margin: 20px 0;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.sliderss button {
+  margin-top: auto;
+}
