@@ -1,0 +1,41 @@
+
+
+
+.header {
+  background-color: aliceblue;
+}
+
+.header-logo {
+  background-color: #BA895D;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.header-logo img {
+  height: 200px;
+}
+
+.header-menu {
+  display: flex;
+  background-color: #574027;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.header-menu nav span {
+  margin: 15px;
+  font-family: myFirstFont;
+}
+
+.header-menu nav a:hover {
+  color: green;
+}
+
+.header a {
+  text-decoration: none;
+  color: var(--background-color);
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+}
