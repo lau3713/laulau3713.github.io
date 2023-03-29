@@ -7,18 +7,18 @@ function Header () {
 
     <header className='header'>
       <div className='header-logo'>
-        <img src='/assets/img/logo.svg'/>
+        <a href="/"><img src='/assets/img/logo.svg'/></a>
       </div>
       <div className='header-menu'>
         <nav>
           <span>
-            <a href='/'>QUI SOMMES NOUS ?</a>
+            <a href='/qui-sommes-nous'>QUI SOMMES NOUS ?</a>
           </span>
           <span>
-            <a href='/'>NOTRE PRODUIT</a>
+            <a href='/produit'>NOTRE PRODUIT</a>
           </span>
           <span>
-            <a href='/'>CONTACTEZ-NOUS</a>
+            <a href='/contact'>CONTACTEZ-NOUS</a>
           </span>
         </nav>
       </div>
