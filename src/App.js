@@ -7,10 +7,10 @@ function App () {
   return (
     <>
       <div className='slider' style={{ backgroundImage: "url(/assets/img/fondhome.svg)" }}>
-        <div id="conteneur_slider">
-          <h1>BUG BUSTERS</h1>
-          <p>Chassez vos peurs, pas les insectes !</p>
-          <a href="#">Plus d'infos</a>
+        <div className="conteneur_slider">
+          <h1>Chassez vos peurs,<br/> 
+            pas les insectes, avec Bug Buster !</h1>
+          <a href="/produit">Découvrez Notre Concept ▷</a>
         </div>
       </div>
       <div className='sliders'>
