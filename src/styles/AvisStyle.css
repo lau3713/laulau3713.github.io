@@ -1,0 +1,34 @@
+.container {
+  background-color: #428253;
+  padding: 20px;
+}
+
+.title {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.avis-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avis {
+  background-color: #CCBAA3;
+  border: 4px solid #53412B;
+  border-radius: 5px;
+  width: 30%;
+  padding: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.stars {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}

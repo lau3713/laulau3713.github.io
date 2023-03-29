@@ -1,0 +1,8 @@
+.counter {
+  margin-left: 100px;
+}
+
+.counter > p {
+  border: 4px solid black;
+  padding: 5px;
+}

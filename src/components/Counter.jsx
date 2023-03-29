@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../styles/CounterStyle.css'
 
 function Counter({ endNumber }) {
   const [count, setCount] = useState(0);

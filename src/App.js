@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Slider from './components/Slider';
 import Background from './components/Background';
+import Avis from './components/Avis';
 function App () {
   return (
     <>
@@ -16,8 +17,9 @@ function App () {
       </div>
       <div className='sliders'>
       <Background  />
-      </div>
       <Slider />
+      <Avis />
+      </div>
     </>
   )
 }

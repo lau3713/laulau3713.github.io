@@ -1,11 +1,11 @@
 .sliderss {
-  display: flex;
+
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
 
-.sliderss > div:first-child {
+.sliderss .head {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,10 +14,12 @@
 
 .sliderss h1 {
   margin: 0;
+  padding-left: 100px;
 }
 
 .sliderss h2 {
   margin: 0;
+  padding-right: 100px;
 }
 
 .sliderss p {
@@ -26,6 +28,7 @@
   margin-right: 100px;
 }
 
-.sliderss button {
-  margin-top: auto;
+.button-container {
+text-align: right;
+margin-right: 100px;
 }
