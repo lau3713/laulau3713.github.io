@@ -26,16 +26,18 @@ function Footer() {
       </div>
 
       <div className='social-media'>
-        <p>Suivez-nous sur les réseaux sociaux
+        <p className='text'>Suivez-nous sur les réseaux sociaux
 pour découvrir notre aspirateur en action !</p>
-      <div>
+      <div className='icon'>
         <FaFacebookF size={30} />
         <BsInstagram size={30} />
         <IoIosMailOpen size={30} />
       </div>
       </div>
     </div>
-      <p></p>
+    <div className='mentions'>
+      <p>© Bugbuster 2023 - Tous droits réservés - Mentions légales</p>
+    </div>
       </> 
    );
 }

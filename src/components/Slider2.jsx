@@ -17,7 +17,9 @@ Pourtant, cette phobie est très répandue en Hexagone et touche 7 Français sur
 Cette phobie animale peut toutefois se combattre grâce à Bug Buster. Finit les crises et bonjour la tranquillité. <br /><br />
 
 Alors n’attendez plus et dites adieux à vos peurs ;</p>
-      {/* <img src="/assets/img/spiderweb.png" alt="spiderweb" /> */}
+    <div className='spiderweb2'>
+      <img src="/assets/img/spiderweb2.png" alt="spiderweb" />
+    </div>
       </div>
     </div>
     

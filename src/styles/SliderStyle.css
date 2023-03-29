@@ -1,9 +1,10 @@
 .sliderss {
+  position: relative;
   color: var(--brown-color);
   width: 74%;
   margin: auto;
   padding-top: 75px;
-  padding-bottom: 75px;
+  padding-bottom: 135px;
 }
 
 .sliderss .head {
@@ -14,15 +15,27 @@
   font-size:xx-large;
 }
 
-.text{
-  /* position: relative; */
+.text p{
   text-align:justify;
-  font-family: var(--font-paragraph);
+  
 }
 
-/* .text img {
+.spiderweb1 {
   position: absolute;
-} */
+  transform: translate(-50%, -50%);
+  left: -10.5%;
+ 
+}
+
+.spiderweb2 {
+  position: absolute;
+  transform: translate(-50%, -60%);
+  right: -24.5%;
+}
+
+.spiderweb2 img, .spiderweb1 img{
+  width: 150px;
+}
 
 .button-container {
   padding-top: 10px;

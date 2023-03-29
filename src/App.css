@@ -21,6 +21,9 @@
 }
 
 .button {
+  box-shadow: 5px 5px 0px 0px var(--brown-color);
+  background-color: var(--background-color);
+  transition: 0.3s;
   font-family: var(--font-paragraph);
   font-size: 1.2rem;
   text-align: center;
@@ -29,6 +32,11 @@
   
 }
 
+.button:hover{
+box-shadow: 0 0 var(--brown-color);
+background-color: var(--brown-light-color);
+
+}
 .button a {
   color: var(--green-color);
   transition: all 0.3s ease;
@@ -36,6 +44,5 @@
 }
 
 .button a:hover {
-  background-color: white;
   color: var(--brown-color);
 }

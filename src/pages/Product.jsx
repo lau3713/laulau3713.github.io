@@ -1,6 +1,9 @@
+import SlideImage from "../components/SlideImage";
+
 function Product() {
   return ( 
-    <h1>PRODUIT</h1>
+    
+    <SlideImage/>
    );
 }
 

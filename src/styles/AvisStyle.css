@@ -10,7 +10,7 @@
   transform: translate(-50%, -50%);
   top: 0;
   left: 50%;
-  background-color: white;
+  background-color: var(--background-color);
   color: var(--brown-color);
   font-size: xx-large;
   font-family: var(--font-title);
@@ -30,6 +30,10 @@
   width: 20%;
   padding: 20px;
 
+}
+
+.avis h3 {
+  font-family: var(--font-paragraph);
 }
 
 .stars {
