@@ -8,14 +8,14 @@ function Counter({ endNumber }) {
     if (count < endNumber) {
       const interval = setInterval(() => {
         setCount(count + 1);
-      }, 2);
+      }, );
       return () => clearInterval(interval);
     }
   }, [count, endNumber]);
 
   return (
-    <div>
-      <h1>{count}</h1>
+    <div className='counter'>
+      <h2>{count}</h2>
     </div>
   );
 }

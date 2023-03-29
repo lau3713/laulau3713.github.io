@@ -1,3 +1,7 @@
+.content{
+  min-height: calc(100vh - (var(--footer-height) + var(--header-height)));
+}
+
 .slider {
   position: relative;
   width: 100%;
@@ -16,18 +20,22 @@
   color: var(--brown-color);
 }
 
-.conteneur_slider a {
-  font-size: 1.5rem;
+.button {
+  font-family: var(--font-paragraph);
+  font-size: 1.2rem;
   text-align: center;
   padding: 10px 10px;
   border: 2px solid var(--brown-color);
-  color: var(--green-color);
-  text-decoration: none;
-  transition: all 0.3s ease;
+  
 }
 
+.button a {
+  color: var(--green-color);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
 
-.conteneur_slider a:hover {
+.button a:hover {
   background-color: white;
   color: var(--brown-color);
 }

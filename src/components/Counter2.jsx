@@ -14,8 +14,8 @@ function Counter({ endNumber }) {
   }, [count, endNumber]);
 
   return (
-    <div>
-      <h1>{count}</h1>
+    <div className='counter'>
+      <h2>{count}/10</h2>
     </div>
   );
 }

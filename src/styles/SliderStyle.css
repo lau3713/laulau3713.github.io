@@ -1,5 +1,6 @@
 .sliderss {
-  width: 88%;
+  color: var(--brown-color);
+  width: 74%;
   margin: auto;
   padding-top: 75px;
   padding-bottom: 75px;
@@ -7,33 +8,23 @@
 
 .sliderss .head {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  justify-content: space-between;
+  font-family: var(--font-subtitle);
+  font-size:xx-large;
 }
 
-.sliderss h1 {
-  margin: 0;
-  padding-left: 100px;
+.text{
+  /* position: relative; */
+  text-align:justify;
+  font-family: var(--font-paragraph);
 }
 
-.sliderss h2 {
-  margin: 0;
-  padding-right: 100px;
-}
-
-.sliderss p {
-  margin: 20px 0;
-  margin-left: 100px;
-  margin-right: 100px;
-}
+/* .text img {
+  position: absolute;
+} */
 
 .button-container {
-text-align: right;
-margin-right: 100px;
-}
-
-h2 span {
-  display: inline-block;
-  margin-left: 5px; /* Add some spacing between the number and the /10 */
+  padding-top: 10px;
+  text-align: right;
 }
