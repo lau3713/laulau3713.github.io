@@ -2,6 +2,7 @@ import './App.css';
 import Slider from './components/Slider';
 import Background from './components/Background';
 import Avis from './components/Avis';
+import Slider2 from './components/Slider2';
 function App () {
   return (
     <>
@@ -16,6 +17,7 @@ function App () {
       <Background  />
       <Slider />
       <Avis />
+      <Slider2 />
       </div>
     </>
   )
