@@ -1,4 +1,5 @@
 import '../styles/HeaderStyle.css'
+import '../styles/VariablesStyle.css'
 
 
 function Header () {
@@ -6,7 +7,7 @@ function Header () {
 
     <header className='header'>
       <div className='header-logo'>
-        <center><img src='/assets/img/logo.svg'/></center>
+        <img src='/assets/img/logo.svg'/>
       </div>
       <div className='header-menu'>
         <nav>
