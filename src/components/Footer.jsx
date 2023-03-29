@@ -5,7 +5,8 @@ import '../styles/FooterStyle.css'
 import '../styles/VariablesStyle.css'
 
 function Footer() {
-  return ( 
+  return (
+    <>
     <div className="footer">
       <div className='footer-menu'>
         <nav>
@@ -33,9 +34,9 @@ pour découvrir notre aspirateur en action !</p>
         <IoIosMailOpen size={30} />
       </div>
       </div>
-      <p></p>
-
     </div>
+      <p></p>
+      </> 
    );
 }
 
