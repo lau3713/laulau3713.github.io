@@ -1,8 +1,12 @@
+
 import '../styles/HeaderStyle.css'
 import '../styles/VariablesStyle.css'
 
 
 function Header () {
+
+
+
   return (
 
     <header className='header'>
