@@ -20,6 +20,9 @@ function Header () {
           <span>
             <a href='/contact'>CONTACTEZ-NOUS</a>
           </span>
+          <span>
+            <a href='/contact'>CONTACTEZ-NOUS</a>
+          </span>
         </nav>
       </div>
       </header>
