@@ -8,6 +8,7 @@ function App () {
     <>
       <Cover/>
       <div className='sliders'>
+        <p>bonjur</p>
       </div>
       <Background  />
       <Slider />
