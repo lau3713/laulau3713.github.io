@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+
 }
 
 .bug {
@@ -11,4 +11,5 @@
   height: 50px;
   background-image: url('/public/assets/img/bug.png');
   background-size: cover;
+  z-index: 9999;
 }
