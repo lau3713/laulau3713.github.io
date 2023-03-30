@@ -1,19 +1,28 @@
+import { FaFacebookF } from 'react-icons/fa'
+import { BsInstagram } from 'react-icons/bs'
+import { IoIosMailOpen } from 'react-icons/io'
+import '../styles/SocialMediaStyle.css';
+
+
 function SocialMedia() {
   return (
-    <div>
-      <h1>NOS RESEAUX</h1>
-      <div>
-        <a href="https://www.facebook.com/">
-          <img src="https://via.placeholder.com/50x50?text=Facebook" alt="Facebook" />
-        </a>
-        <a href="https://www.instagram.com/">
-          <img src="https://via.placeholder.com/50x50?text=Instagram" alt="Instagram" />
-        </a>
-        <a href="mailto:contact@exemple.com">
-          <img src="https://via.placeholder.com/50x50?text=Email" alt="Email" />
-        </a>
+    <div className="container">
+      <h2 className="title">NOS RÉSEAUX</h2>
+      <div className="avis-container">
+        <div className='media'>
+      <div className='icon-contact'>
+        <a href="https://www.facebook.com/"><FaFacebookF size={55} /></a>
+        </div>
+      <div className='icon-contact'>
+        <a className='azer' href="https://www.instagram.com/"><BsInstagram size={55} /></a>
+      </div>
+      <div className='icon-contact'>
+        <a href="mailto:email@example.com"><IoIosMailOpen size={55} /></a>
+      </div>
+        </div>
       </div>
     </div>
+  
   );
 }
 

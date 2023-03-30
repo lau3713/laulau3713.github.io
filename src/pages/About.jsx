@@ -26,7 +26,7 @@ Le projet est prévu pour voir le jour en 2024, mais pour cela, l’équipe doit
       <img src="/assets/img/spiderweb1.png" alt="spiderweb" />
     </div>
 <div className='button-about'>
-   <button className='button' ><a href="/qui-sommes-nous">Contactez-nous pour investir chez Bug Buster</a></button>
+   <button className='button' ><a href="/contact">Contactez-nous pour investir chez Bug Buster</a></button>
    </div>
 
    </div> 

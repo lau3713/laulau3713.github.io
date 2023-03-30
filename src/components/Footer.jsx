@@ -29,9 +29,9 @@ function Footer() {
         <p className='paraph'>Suivez-nous sur les réseaux sociaux
 pour découvrir notre aspirateur en action !</p>
       <div className='icon'>
-        <FaFacebookF size={30} />
-        <BsInstagram size={30} />
-        <IoIosMailOpen size={30} />
+        <a href="https://www.facebook.com/"><FaFacebookF size={30} /></a>
+        <a className='azer' href="https://www.instagram.com/"><BsInstagram size={30} /></a>
+        <a href="mailto:email@example.com"><IoIosMailOpen size={30} /></a>
       </div>
       </div>
     </div>

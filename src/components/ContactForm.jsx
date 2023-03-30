@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import '../styles/Contact.css';
+
 
 
 function ContactForm() {
@@ -61,10 +63,10 @@ function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <h2>Contactez-nous</h2>
-      <div>
+      <div className='prenom-nom'>
+      <div className='champ'>
         <label htmlFor="firstName">Prénom :</label>
-        <input
+        <input className='height'
           type="text"
           id="firstName"
           name="firstName"
@@ -73,9 +75,9 @@ function ContactForm() {
           required
         />
       </div>
-      <div>
+      <div className='champ'>
         <label htmlFor="lastName">Nom :</label>
-        <input
+        <input className='height'
           type="text"
           id="lastName"
           name="lastName"
@@ -84,9 +86,10 @@ function ContactForm() {
           required
         />
       </div>
-      <div>
+      </div>
+      <div className='champ'>
         <label htmlFor="phoneNumber">Numéro de téléphone :</label>
-        <input
+        <input className='height'
           type="tel"
           id="phoneNumber"
           name="phoneNumber"
@@ -95,9 +98,9 @@ function ContactForm() {
           required
         />
       </div>
-      <div>
+      <div className='champ'>
         <label htmlFor="email">Adresse email :</label>
-        <input
+        <input className='height'
           type="email"
           id="email"
           name="email"
@@ -106,8 +109,10 @@ function ContactForm() {
           required
         />
       </div>
-      <div>
-        <span>Raison de votre message :</span>
+
+      <div className='champ'>
+      <span>Raison de votre message :</span>
+      <div className='objet'>
         <div>
           <input
             type="checkbox"
@@ -139,7 +144,8 @@ function ContactForm() {
           <label htmlFor="support">SAV</label>
         </div>
       </div>
-      <div>
+      </div>
+      <div className='champ'>
         <label htmlFor="message">Message :</label>
     <textarea
       id="message"
@@ -150,7 +156,10 @@ function ContactForm() {
       required
     />
   </div>
-  <button type="submit">Envoyer</button>
+  <div className='send'>
+  <button type="submit" className='button' >Envoyer</button>
+  </div>
+
 </form>
   )}
 
