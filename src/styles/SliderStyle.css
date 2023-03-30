@@ -13,9 +13,10 @@
   justify-content: space-between;
   font-family: var(--font-subtitle);
   font-size:xx-large;
+  flex-wrap: wrap;
 }
 
-.text p{
+.paraph p{
   text-align:justify;
   
 }

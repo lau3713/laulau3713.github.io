@@ -12,9 +12,9 @@ function SlideImage() {
 
     if (imageLoaded) {
       setTimeout(() => {
-        image.style.right = '70%';
+        image.style.right = '54%';
         text.style.opacity = '1'; 
-      }, 2000);
+      }, 1000);
     }
   }, [imageLoaded]);
 
@@ -23,10 +23,14 @@ function SlideImage() {
 
   return ( 
     <div className="cont">
-      <img src="/assets/img/logo.svg" alt="your-image" className="image" onLoad={() => setImageLoaded(true)} />
+      <img src="/assets/img/aspirateur.png" alt="your-image" className="image" onLoad={() => setImageLoaded(true)} />
       <div className="text">
-        <h2>Votre titre ici</h2>
-        <p>Votre texte ici</p>
+        <h2>Bug Bugster</h2>
+        <ul>
+          <li>EFFICACE</li><br />
+          <li>PRATIQUE</li><br />
+          <li>RESPECTUEUX DE L'ENVIRONNEMENT</li>
+        </ul>
       </div>
     </div>
    );

@@ -26,7 +26,7 @@ function Footer() {
       </div>
 
       <div className='social-media'>
-        <p className='text'>Suivez-nous sur les réseaux sociaux
+        <p className='paraph'>Suivez-nous sur les réseaux sociaux
 pour découvrir notre aspirateur en action !</p>
       <div className='icon'>
         <FaFacebookF size={30} />

@@ -1,0 +1,13 @@
+.declinaisons{
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.img-declinaison{
+  width: 250px;
+}

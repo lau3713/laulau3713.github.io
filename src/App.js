@@ -10,7 +10,7 @@ function App () {
         <div className="conteneur_slider">
           <h1>Chassez vos peurs,<br/> 
             pas les insectes, avec Bug Buster !</h1>
-          <button className='button'><a href="/produit">Découvrez Notre Concept ▷</a></button>
+          <button className='button'><a href="/produit">Découvrez Notre Concept </a></button>
         </div>
       </div>
       <div className='sliders'>

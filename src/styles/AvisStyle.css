@@ -21,6 +21,8 @@
 .avis-container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+
 }
 
 .avis {
@@ -38,5 +40,13 @@
 
 .stars {
   margin-bottom: 10px;
+}
+
+.product-desc {
+  color: var(--brown-light-color);
+  font-size: large;
+  width: 80%;
+  margin: auto;
+  padding: 10px 0 50px 0;
 }
 
