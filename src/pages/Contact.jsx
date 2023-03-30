@@ -8,7 +8,6 @@ function Contact() {
     <ContactForm   />
     <SocialMedia />
     </>
-  );
-}
+  )}
 
 export default Contact;

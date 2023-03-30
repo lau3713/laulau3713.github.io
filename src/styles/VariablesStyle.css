@@ -17,7 +17,10 @@
   --brown-light-color: #CCB297;
   --green-color: #428253;
   --brown-color: #574027;
+  --background-color: #F5EEE5;
   --font-title:"Korolev-condensed-bold";
   --font-subtitle:"Korolev-compressed-bold";
   --font-paragraph:"Korolev-medium";
+  --footer-height:199.800px;
+  --header-height:201.200px;
 }

@@ -1,3 +1,7 @@
+.content{
+  min-height: calc(100vh - (var(--footer-height) + var(--header-height)));
+}
+
 .slider {
   position: relative;
   width: 100%;
@@ -5,37 +9,39 @@
   background-position: center;
 }
 
-#conteneur_slider {
+.conteneur_slider {
   position: absolute;
+  font-family: var(--font-title);
+  font-size: x-large;
   top: 50%;
-  left: 50%;
+  left: 33%;
   transform: translate(-50%, -50%);
+  color: var(--brown-color);
+}
+
+.button {
+  box-shadow: 5px 5px 0px 0px var(--brown-color);
+  background-color: var(--background-color);
+  transition: 0.3s;
+  font-family: var(--font-paragraph);
+  font-size: 1.2rem;
   text-align: center;
-  color: #53412B;
+  padding: 10px 10px;
+  border: 2px solid var(--brown-color);
+  
 }
 
-#conteneur_slider h1 {
-  font-size: 4rem;
-  margin-bottom: 2rem;
-}
+.button:hover{
+box-shadow: 0 0 var(--brown-color);
+background-color: var(--brown-light-color);
 
-#conteneur_slider p {
-  font-size: 2rem;
-  margin-bottom: 3rem;
 }
-
-#conteneur_slider a {
-  display: inline-block;
-  font-size: 1.5rem;
-  padding: 1.5rem 3rem;
-  border: 2px solid white;
-  border-radius: 2rem;
-  color: #53412B;
-  text-decoration: none;
+.button a {
+  color: var(--green-color);
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
-#conteneur_slider a:hover {
-  background-color: white;
-  color: black;
+.button a:hover {
+  color: var(--brown-color);
 }

@@ -1,3 +1,4 @@
+
 import { useNavigate } from 'react-router'
 import '../styles/HeaderStyle.css'
 import '../styles/VariablesStyle.css'
@@ -6,6 +7,7 @@ import '../styles/VariablesStyle.css'
 function Header () {
 
   const navigate = useNavigate()
+
   return (
 
     <header className='header'>

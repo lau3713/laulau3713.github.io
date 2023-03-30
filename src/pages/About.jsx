@@ -17,7 +17,6 @@ L’inspiration pour leur projet est venue d’un groupe de camarades de classe 
 Le projet est prévu pour voir le jour en 2024, mais pour cela, l’équipe doit trouver un investisseur pour financer sa production. Avec leur passion et leur détermination, Laurie, Victor et Eva sont prêts à faire de Bug Buster un succès sur le marché des aspirateurs à insectes.</p>
     <button type="button">Contactez-nous pour investir chez Bug Buster</button>
     </>
-   );
-}
 
-export default About;
+  )}
+export default About

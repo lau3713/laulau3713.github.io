@@ -1,34 +1,42 @@
 .container {
-  background-color: #428253;
-  padding: 20px;
+  background-color: var(--green-color);
+  padding: 100px 20px 20px 20px;
+  position: relative;
 }
 
 .title {
-  background-color: white;
+  position: absolute;
+  width: 60%;
+  transform: translate(-50%, -50%);
+  top: 0;
+  left: 50%;
+  background-color: var(--background-color);
+  color: var(--brown-color);
+  font-size: xx-large;
+  font-family: var(--font-title);
   padding: 20px;
   text-align: center;
 }
 
 .avis-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .avis {
-  background-color: #CCBAA3;
-  border: 4px solid #53412B;
+  background-color: var(--brown-light-color);
+  border: 4px solid var(--brown-color);
   border-radius: 5px;
-  width: 30%;
+  width: 20%;
   padding: 20px;
-  margin-right: 100px;
-  margin-left: 100px;
+
+}
+
+.avis h3 {
+  font-family: var(--font-paragraph);
 }
 
 .stars {
-  font-size: 24px;
   margin-bottom: 10px;
 }
 
-h2 {
-  margin-top: 0;
-}
