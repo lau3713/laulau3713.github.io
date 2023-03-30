@@ -10,12 +10,35 @@
   background-position: center;
 }
 
+.slider2 {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-position-y: 35%;
+  background-size: cover;
+}
+
+.h1-about, .p-about, .h2-about{
+  margin: 0;
+  font-family: var(--font-title);
+}
+
 .conteneur_slider {
   position: absolute;
   font-family: var(--font-title);
-  font-size: x-large;
+  font-size: xx-large;
   top: 50%;
   left: 33%;
+  transform: translate(-50%, -50%);
+  color: var(--brown-color);
+}
+
+.conteneur_slider2 {
+  position: absolute;
+  font-family: var(--font-title);
+  font-size: xx-large;
+  top: 50%;
+  left: 22%;
   transform: translate(-50%, -50%);
   color: var(--brown-color);
 }

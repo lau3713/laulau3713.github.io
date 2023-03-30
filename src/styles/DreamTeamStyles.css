@@ -1,15 +1,23 @@
-.dreamteam {
-  display: 'flex';
-  align-items: center;
+.img-people{
+  border: 4px solid var(--brown-light-color);
+  border-radius: 50%;
+  background-size: cover;
+  clip-path:ellipse(50% 50%);
+
 }
 
-.people {
-  display: 'flex';
-  flex-direction: 'column';
-  align-items: 'center';
-  margin-right: '20px';
+.img-people img {
+  width: 180px;
+  /* border: 4px solid var(--brown-light-color); */
+  height: 68%;
+  /* background-size: cover; */
+  clip-path:ellipse(50% 50%);
+  
 }
 
-.dreamteam .img {
- display: flex;
+.people p{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  color: var(--brown-light-color);
 }

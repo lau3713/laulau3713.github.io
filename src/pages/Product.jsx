@@ -1,4 +1,5 @@
 
+import Avis from "../components/Avis";
 import Declinaisons from "../components/Declinaisons";
 import DescProduct from "../components/DescProduct";
 
@@ -12,6 +13,7 @@ function Product() {
     <SlideImage/>
     <DescProduct/>
     <Declinaisons/>
+    <Avis/>
     </>
 
 )}

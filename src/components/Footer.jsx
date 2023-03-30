@@ -6,7 +6,7 @@ import '../styles/VariablesStyle.css'
 
 function Footer() {
   return (
-    <>
+    <div>
     <div className="footer">
       <div className='footer-menu'>
         <nav>
@@ -38,7 +38,7 @@ pour découvrir notre aspirateur en action !</p>
     <div className='mentions'>
       <p>© Bugbuster 2023 - Tous droits réservés - Mentions légales</p>
     </div>
-      </> 
+    </div> 
    );
 }
 
